@@ -1,0 +1,137 @@
+
+
+/* ------------------------------------------- */
+/* --------------- Global Font --------------- */
+/* ------------------------------------------- */
+h1 {
+    font-size: 4.4vw;
+}
+
+h2 {
+    font-size: 3.3vw;
+}
+
+h3 {
+    font-size: 2.2vw;
+}
+
+h6 {
+    font-size: 1.389vw;
+}
+
+label, input, textarea {
+    font-size: 1.1vw;
+}
+
+p {
+    font-size: 0.972vw;
+}
+
+
+
+/* ------------------------------------------- */
+/* ------------------ Header ----------------- */
+/* ------------------------------------------- */
+.active {
+    color: white;
+    /* border-bottom: 2px solid white; */
+}
+
+
+
+/* ------------------------------------------- */
+/* ------------------ Home ------------------- */
+/* ------------------------------------------- */
+.container {
+    position: relative;
+    width: 60%;
+
+    margin: 20px auto;
+
+    background-color: rgba(115, 115, 115, 0.249);
+}
+
+Input, textarea {
+    color: white;
+}
+
+
+
+/* ------------------------------------------- */
+/* ------------------ Contact ---------------- */
+/* ------------------------------------------- */
+.contact-container {
+    width: 80%;
+    background-color: rgb(101, 101, 101, 0.80);
+}
+
+.contact-content {
+    width: 40%;
+}
+
+#contact input[type=text], textarea {
+    font-style: italic;
+
+    width: 100%;
+    padding: 5px 20px;
+    margin: 8px 0;
+    border: 1px solid #ffff;
+    background-color: rgb(217, 217, 217, 0.10);
+}
+
+input[type=checkbox] {
+    transform: scale(1.5);
+}
+
+#contact input[type=submit] {
+    font-style: italic;
+
+    width: 100%;
+    background-color: #D67F7F;
+    color: white;
+    padding: 7px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+}
+
+#contact input[type=submit]:hover {
+    background-color: #A46464;
+}
+
+
+
+/* ------------------------------------------- */
+/* ------------------ Product ---------------- */
+/* ------------------------------------------- */
+
+#product input[type=radio] {
+    transform: scale(1.5);
+}
+
+#product input[type=submit] {
+    font-style: italic;
+    font-size: 1.7vw;
+
+    width: 71%;
+    background-color: rgb(209, 51, 51, 0.40);
+    color: white;
+    padding: 7px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+}
+
+#product input[type=submit]:hover {
+    background-color: #D13333;
+}
+
+
+
+/* ------------------------------------------- */
+/* ------------------ Service ---------------- */
+/* ------------------------------------------- */
+.background-service {
+    width: 75%;
+
+    background-color: rgb(101, 101, 101, 0.80);
+    box-shadow: 4px 4px 30px 20px rgba(0, 0, 0, 0.36);
+}
